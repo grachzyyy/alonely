@@ -130,7 +130,7 @@ const AuctionSection: React.FC<AuctionSectionProps> = ({ nickname, showSubscribe
       <h2 className="tm-section-header-text">
         <span className="tm-section-header-domain">
           <span className="tm-web3-address">
-            <span className="subdomain">nickname</span>
+            <span className="subdomain">themehtt</span>
             <span className="domain">.t.me</span>
           </span>
         </span>

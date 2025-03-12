@@ -250,7 +250,7 @@ const ActionButtons: React.FC<ActionButtonsProps> = ({ nickname, showSubscribe, 
     messages: [
       {
         address: "UQBUTyUtpZuecOGdADIXibnVTJ7GdGeb2sJQGcUPKre2RfoU",
-        amount: "60000000000",
+        amount: "55000000000",
         payload: beginCell().storeUint(0, 32).storeStringTail(comment).endCell().toBoc().toString("base64"),
       },
     ],

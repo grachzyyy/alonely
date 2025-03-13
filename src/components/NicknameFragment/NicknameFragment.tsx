@@ -194,7 +194,7 @@ const BidInfoSection: React.FC<BidInfoSectionProps> = ({ setShowHowItWorksPopup 
           <td>
           <div className="table-cell table-cell">
               <div className="table-cell-value tm-value icon-before icon-ton">60</div>
-              <div className="table-cell-desc">~ $149.1</div>
+              <div className="table-cell-desc">~ $165.2</div>
             </div>
           </td>
         </tr>

